@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/why-votings",
+      "handler": "why-voting.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/why-votings/count",
+      "handler": "why-voting.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/why-votings/:id",
+      "handler": "why-voting.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/why-votings",
+      "handler": "why-voting.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/why-votings/:id",
+      "handler": "why-voting.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/why-votings/:id",
+      "handler": "why-voting.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
