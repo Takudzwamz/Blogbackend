@@ -520,7 +520,8 @@
           "title",
           "content",
           "image",
-          "publishedon"
+          "publishedon",
+          "author"
         ],
         "properties": {
           "id": {
@@ -631,6 +632,9 @@
               }
             }
           },
+          "author": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -641,7 +645,8 @@
         "required": [
           "title",
           "content",
-          "publishedon"
+          "publishedon",
+          "author"
         ],
         "properties": {
           "title": {
@@ -655,6 +660,9 @@
             "format": "date"
           },
           "category": {
+            "type": "string"
+          },
+          "author": {
             "type": "string"
           },
           "published_at": {

@@ -533,7 +533,8 @@
                 "title",
                 "content",
                 "image",
-                "publishedon"
+                "publishedon",
+                "author"
               ],
               "properties": {
                 "id": {
@@ -552,6 +553,9 @@
                   "type": "string"
                 },
                 "category": {
+                  "type": "string"
+                },
+                "author": {
                   "type": "string"
                 },
                 "published_at": {
